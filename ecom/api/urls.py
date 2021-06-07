@@ -10,5 +10,6 @@ urlpatterns=[
     path('product/',include('api.product.urls')),
     path('user/',include('api.user.urls')),
     path('order/',include('api.order.urls')),
-    path('api-token-auth/',views.obtain_auth_token,name="api_token_auth")#generates auth token not used
+    path('api-token-auth/',views.obtain_auth_token,name="api_token_auth"),#generates auth token not used
+    path('payment/',include('api.payment.urls')),
 ]
