@@ -9,6 +9,7 @@ django-binary-database-files = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
 pillow = "*"
+braintree = "*"
 
 [dev-packages]
 
